@@ -1,5 +1,4 @@
 package com.dioclass.rdswithapirest.Hateoas.Repositories;
-
 import com.dioclass.rdswithapirest.Hateoas.Entitys.OrderHateoas;
 import org.springframework.data.jpa.repository.JpaRepository;
 

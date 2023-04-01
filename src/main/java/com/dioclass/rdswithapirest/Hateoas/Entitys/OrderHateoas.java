@@ -1,5 +1,4 @@
 package com.dioclass.rdswithapirest.Hateoas.Entitys;
-
 import org.springframework.hateoas.RepresentationModel;
 import javax.persistence.*;
 import java.util.Objects;
@@ -7,7 +6,6 @@ import java.util.Objects;
 
 @Entity
 @Table(name="CUSTUMER_ORDER")
-//para habilitar o uso de links nos recursos precisamos utilizar a classe RepresentationMondel do Hateoas
 public class OrderHateoas extends RepresentationModel<OrderHateoas> {
     @Id
     @Column(name = "id", nullable = false)

@@ -7,8 +7,6 @@ import com.dioclass.rdswithapirest.Hateoas.Repositories.OrderRepositoryHateoas;
 import com.dioclass.rdswithapirest.Hateoas.Entitys.Status;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
